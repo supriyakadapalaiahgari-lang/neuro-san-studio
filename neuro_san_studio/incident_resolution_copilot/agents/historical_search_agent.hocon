@@ -1,0 +1,16 @@
+agent {
+  name = "Historical Search Agent"
+
+  description = """
+  Search historical incidents.
+
+  Find the most relevant incidents
+  based on incident description.
+
+  Return:
+  - incident number
+  - assignment group
+  - resolver
+  - resolution
+  """
+}

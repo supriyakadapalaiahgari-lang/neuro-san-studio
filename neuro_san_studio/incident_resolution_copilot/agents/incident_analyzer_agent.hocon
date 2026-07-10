@@ -1,0 +1,14 @@
+agent {
+  name = "Incident Analyzer Agent"
+
+  description = """
+  Analyze incoming incidents.
+
+  Extract:
+  - category
+  - keywords
+  - issue type
+
+  Delegate to Historical Search Agent.
+  """
+}

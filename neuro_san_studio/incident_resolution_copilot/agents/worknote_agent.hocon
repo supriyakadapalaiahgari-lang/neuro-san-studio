@@ -1,0 +1,14 @@
+agent {
+  name = "Work Notes Agent"
+
+  description = """
+  Generate professional
+  ServiceNow work notes.
+
+  Include:
+
+  - historical references
+  - actions taken
+  - validation steps
+  """
+}

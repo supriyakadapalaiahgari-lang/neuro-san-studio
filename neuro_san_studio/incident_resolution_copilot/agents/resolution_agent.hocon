@@ -1,0 +1,14 @@
+agent {
+  name = "Resolution Agent"
+
+  description = """
+  Analyze similar incidents.
+
+  Suggest:
+
+  - probable resolution
+  - assignment group
+  - resolver
+  - confidence score
+  """
+}
