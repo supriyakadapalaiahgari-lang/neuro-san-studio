@@ -54,8 +54,11 @@ def find_similar_incidents(query):
             "Resolution":
                 df.iloc[idx]["Close Notes"],
 
+            "Work Notes":
+                df.iloc[idx]["Work Notes"],
+
             "Similarity":
-                round(scores[idx] * 100, 2)
+                float(round(scores[idx] * 100, 2))
         })
 
     return results
