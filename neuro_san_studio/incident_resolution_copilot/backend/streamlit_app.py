@@ -1,5 +1,5 @@
 import streamlit as st
-from coded_tools.incident_similarity_tool import (
+from neuro_san_studio.incident_resolution_copilot.backend.coded_tools.incident_similarity_tool import (
     find_similar_incidents
 )
 

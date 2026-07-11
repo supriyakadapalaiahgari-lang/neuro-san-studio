@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 def find_similar_incidents(query):
 
     df = pd.read_excel(
-        "data/Incidents.xlsx"
+        "../data/Incidents.xlsx"
     )
 
     df["combined_text"] = (

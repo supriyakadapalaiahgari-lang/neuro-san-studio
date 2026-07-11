@@ -20,6 +20,22 @@ The solution analyzes incoming incidents, searches historical incident records, 
 - Agent Workflow Visualization
 
 ---
+## Project Structure
+
+incident-resolution-copilot
+
+README.md
+architecture.md
+summary.md
+requirements.txt
+
+agents/
+
+backend/
+  streamlit_app.py
+  coded_tools/
+
+data/
 
 ## Agent Workflow
 
@@ -58,10 +74,11 @@ cd incident_resolution_copilot
 pip install -r requirements.txt
 ```
 
-### Run Application
+## Run Application
 
 ```bash
-streamlit run streamlit_app.py --server.address 0.0.0.0
+cd backend
+streamlit run streamlit_app.py
 ```
 
 ---

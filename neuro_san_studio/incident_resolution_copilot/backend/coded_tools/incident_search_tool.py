@@ -4,7 +4,7 @@ import pandas as pd
 def search_incidents(query):
 
     df = pd.read_excel(
-        "data/Incidents.xlsx"
+        "../data/Incidents.xlsx"
     )
 
     results = df[
